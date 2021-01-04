@@ -1,0 +1,6 @@
+exon:  1495881
+transcript (=gene):  239032
+transcripts one exon
+25906
+novel transcript
+9517

@@ -1,0 +1,14 @@
+sample	cisplatin
+A24wt_1	0C
+A24wt_2	0C
+A24wt_3	0C
+D_Pt2_1	2C
+D_Pt2_2	2C	
+D_Pt2_3	2C
+D_Pt4_1	4C
+D_Pt4_2	4C
+D_Pt4_3	4C
+D_Pt8_1	8C
+D_Pt8_2	8C
+D_Pt8_3	8C
+
