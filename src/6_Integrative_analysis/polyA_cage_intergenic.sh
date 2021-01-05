@@ -7,6 +7,10 @@
 #SBATCH --output=/data/courses/rnaseq/lncRNAs/Project1/matthieu/results/output_intersect_%j.o
 #SBATCH --error=/data/courses/rnaseq/lncRNAs/Project1/matthieu/results/error_intersect_%j.e
 
+#Convert hg19 to hg38.bed
+module add Utility/UCSC-utils/359
+liftOver hg19.cage_peak_phase1and2combined_coord.bed hg19ToHg38.over.chain.gz cage_peaks_in_hg38.bed unfilled.bed
+
 module add UHTS/Analysis/BEDTools/2.29.2;
 REF_DIR=/data/courses/rnaseq/lncRNAs/Project1/matthieu/references
 DIR=/data/courses/rnaseq/lncRNAs/Project1/matthieu/
